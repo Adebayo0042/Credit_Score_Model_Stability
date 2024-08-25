@@ -100,7 +100,7 @@ def smote_application():
     ax[0].set_title('Distribution of TARGET Variable (Original)', fontsize=10)
 
     # Set y-axis limits for the original distribution
-    ax[0].set_ylim(0, 15000)
+    ax[0].set_ylim(0, 2000)
 
     # Instantiate SMOTE
     ## Pipeline for Sythetic Minority Over-sampling technique
@@ -131,7 +131,7 @@ def smote_application():
     ax[1].set_title('Distribution of TARGET Variable (After SMOTE)', fontsize=10)
 
     # Set y-axis limits for the resampled distribution
-    ax[1].set_ylim(0, 15000)
+    ax[1].set_ylim(0, 2000)
 
     # Set x and y labels with reduced font size
     ax[0].set_xlabel('Classes', fontsize=10)
