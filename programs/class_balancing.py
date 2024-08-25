@@ -146,7 +146,7 @@ def smote_application():
     # Show the plot
     plt.tight_layout()
     # Output message
-    st.markdown("*Training Dataset Class Distribution Before and After Borderline SMOTE Application*")
+    st.markdown("*Training Dataset Class Distribution Before and After KMeans SMOTE Application*")
     print("-----------------------------------------------------------------------------------\n") 
     st.pyplot(plt)
     
