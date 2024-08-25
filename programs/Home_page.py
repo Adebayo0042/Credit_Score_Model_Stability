@@ -34,6 +34,7 @@ import model_development as model_dev
 import sythetic_data_augmentation as sda
 import model_explainability as model_explainer
 
+
 ## Set the page layout
 st.set_page_config(
     layout="wide"  # Set layout to wide
