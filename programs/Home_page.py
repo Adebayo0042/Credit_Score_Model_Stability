@@ -58,7 +58,7 @@ choice = st.sidebar.radio("Go to", sections)
 if choice == "Introduction":
     st.header("Introduction")
     st.markdown("""
-This Python notebook is dedicated to the research dissertation titled \
+This web application is dedicated to the research dissertation titled \
             **"Enhancing Credit Score Modelling Stability through Data Science Techniques.\
             "** The aim of the research is to develop a robust and accurate credit score model\
              for predicting customer behaviour based on a large and imbalanced dataset. This \
@@ -66,7 +66,7 @@ This Python notebook is dedicated to the research dissertation titled \
             data preprocessing, synthetic data generation techniques for class balancing, feature \
             selection, evaluating model stability under augmented data conditions, and model explainability.
 
-In this notebook, we will perform:
+In this research, we will perform:
 
 - **Class Balancing**: Apply the Synthetic Minority Oversampling Technique (SMOTE) to balance \
             the imbalanced credit dataset, enhancing model training and performance.
